@@ -68,7 +68,7 @@ The current `notebooks/` folder contains the main Jupyter notebook used to produ
 
 ## Repository Structure
 
-```clinically-aligned-xai-dr/
+clinically-aligned-xai-dr/
 ├── notebooks/
 │   └── main_pipeline.ipynb        # End-to-end: training, evaluation, XAI
 ├── figures/                       # Paper figures (auto-generated)
@@ -99,7 +99,7 @@ Lesion-level masks used for the clinical-alignment evaluation are transferred fr
 
 > ⏳ Full installation and training instructions will be added as the modular codebase is released. For now, the main pipeline notebook is self-contained and can be run end-to-end on Kaggle or any GPU-enabled Jupyter environment.
 
-```bashClone the repository
+bashClone the repository
 git clone https://github.com/ibrahimqasmi313/clinically-aligned-xai-dr.git
 cd clinically-aligned-xai-drOpen the notebook
 jupyter notebook notebooks/main_pipeline.ipynb
@@ -109,8 +109,7 @@ jupyter notebook notebooks/main_pipeline.ipynb
 ## Citation
 
 If you use this code or build on this work, please cite:
-
-```bibtex@article{qasmi2026clinically,
+`bibtex@article{qasmi2026clinically,
 title   = {A Clinically-Aligned Multi-Family Explainable AI Framework for Diabetic Retinopathy Detection on Fundus Images},
 author  = {Qasmi, Muhammad Ibrahim and Pirzada, Aqib Rehman},
 journal = {Preprints.org},
